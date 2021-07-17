@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/cloud"
+    tools:context=".Activities.Splash_activity">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:elevation="5dp"
+        android:backgroundTint="@color/splash_back"
+        android:background="@drawable/ic_baseline_cloud_24"
+        >
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/sun"
+            app:tint="@color/yellow"
+            android:src="@drawable/ic_baseline_wb_sunny_24"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:fontFamily="@font/roboto_bold"
+            android:text="WEATHERER"
+            android:textSize="30sp"
+            android:textColor="@color/dark_blue" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
