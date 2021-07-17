@@ -10,5 +10,6 @@
 <h3> Open Weather Api </h3>
 <h2> DataBase Part </h2>
 <h3> App is using Room persistence library for the database part of the application, which provides an abstraction layer over SQLite to allow fluent database access while harnessing the full power of SQLite.
-<h2> Preview </h2>
-<h3>![APP](https://user-images.githubusercontent.com/69066791/126030268-f98d6411-a7d8-4142-b6f7-3a38990289be.gif)
+<h2> Preview <h3>
+![Weatherer](https://user-images.githubusercontent.com/69066791/126031338-c83f63da-c1ff-4c70-97a7-d95aae32da86.gif)
+
