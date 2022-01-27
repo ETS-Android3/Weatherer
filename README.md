@@ -1,6 +1,4 @@
-# Weatherer
-
-<h2> Introduction </h2>
+# Introduction
 <h3> Planning to travel to a city or some country or just simply going out with friends knowing weather condition of that place always comes handy in planning one’s trip.So here is an Android App for the same.
 <h3> Android Weather app developed in JAVA. The app is composed of a two screen and the app widget.
 <h3> Enter city name and App will show present temperature, humidity, weather condition of the city entered.
